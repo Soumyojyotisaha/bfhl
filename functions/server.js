@@ -13,9 +13,9 @@ router.get('/bfhl', (req, res) => {
 
 router.post('/bfhl', (req, res) => {
   const { data } = req.body;
-  const user_id = "Harsh_Vardhan_12102002";  
-  const email = "harshvardhan.shukla2021@vitstudent.ac.in"; 
-  const roll_number = "21BCE2236";
+  const user_id = "SoumyojyotiSaha_29122001";  
+  const email = "soumyojyoti.saha2021@vitstudent.ac.in"; 
+  const roll_number = "21BCE4007";
 
   if (!Array.isArray(data)) {
     return res.status(400).json({ is_success: false, message: "Invalid data format" });
